@@ -12,7 +12,7 @@ export default function App() {
     },
     {
       id: generateId(),
-      text: "پیشنهادات بعد از 15 ثانیه حذف میشوند.",
+      text: "پیشنهادات بعد از ۱۵ ثانیه حذف میشوند.",
       expiresAt: getNewExpirationTime(),
     },
     {

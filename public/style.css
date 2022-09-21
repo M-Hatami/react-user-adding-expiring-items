@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./fnt/Yekan.woff2) format("woff2"),
+    url(./fnt/Yekan.woff) format("woff"),
+    url(./fnt/Yekan.ttf) format("truetype"),
+    url(./fnt/Yekan.eot?#iefix) format("embedded-opentype"),
+    url(./fnt/Yekan.svg#WeblogmaYekan) format("svg");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+@font-face {
+  font-family: "Vazir Code Hack";
+  src: url("./fnt/monospaced/Vazir-Code-Hack.woff2") format("woff2"),
+    url("./fnt/monospaced/Vazir-Code-Hack.woff") format("woff"),
+    url("./fnt/monospaced/Vazir-Code-Hack.ttf") format("truetype"),
+    url("./fnt/monospaced/Vazir-Code-Hack.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+/** Style variables **/
+:root {
+  --green: #007d1b;
+  --black-head: #111;
+  --black-txt: #202124;
+  --grey-detail: #888;
+  --grey-head-border: #888;
+  --grey-border: #d6d6d6;
+  --blue-link: #06c;
+}
+
+/** Default styles that will carry to the child style sheet **/
+* {
+  font-family: Yekan, Tahoma, "Segoe UI", sans-serif, "Noto Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji";
+  color: var(--black-txt);
+  letter-spacing: -0.02em;
+}
+
+body {
+  margin: 0;
+  font-size: 16pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.02em;
+  overflow: visible;
+  color: var(--black-head);
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+h1#top.pageTitle {
+  font-size: 3rem;
+  line-height: 1.085;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  margin-top: 0;
+  margin-bottom: 0.625em;
+}
+
+input,
+button {
+  font: inherit;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 95%;
+}
+
+.App h1:before {
+  content: "💭";
+  margin-right: 0.5em;
+}
+
+.AddThoughtForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AddThoughtForm input {
+  padding: 1.5rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+.AddThoughtForm input[type="text"] {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+.thoughts {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Thought {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+.Thought .remove-button {
+  font-size: 80%;
+  float: left;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.Thought .remove-button:hover {
+  color: #fff;
+  background-color: #000;
+}

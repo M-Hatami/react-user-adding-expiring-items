@@ -1,3 +1,29 @@
+<html lang="fa" dir="rtl">
+<body>
+<h1>معرفی
+</h1>
+<p>نمونه برنامه ری‌اکت جاوا اسکریپت برای ساخت پیامهای موقت. این برنامه میتواند برای موارد زیر توسعه و تنظیم یابد:</p>
+<ul>
+<li>پیشنهاد برخط و موقت فروش کالا خدمات</li>
+<li>ارسال پیام زمان‌دار</li>
+<li>دفتر چرک نویس موقت که اطلاعات را به اندازه زمان جلسه نگهداری کند</li>
+<li>و دیگر ...</li>
+</ul>
+
+<div>
+<img src="https://github.com/M-Hatami/react-user-adding-expiring-items/blob/master/public/Expiring-Messages-Thoughts-JavaScript-React.jpg?raw=true" alt="نمونه رابط کاربری"/>
+</div>
+<br/>
+<p>برای استفاده از یک ارائه زنده به <a href="https://react-user-adding-expiring-items.netlify.app/">نمونه برخط</a> این طرح مراجعه فرمایید.
+</p>
+
+<h2>طرز استفاده:</h2>
+<div>
+<p>خصوصیات:</p>
+<ul><li>پیام‌های پیش‌فرض موقت همزمان با بارگیری صفحه افزوده میشوند.</li><li>کاربر میتواند پیام/های خود را بیافزاید.</li><li>تمامی پیامها در مدت تعیین شده (اینجا ۱۵ ثانیه) بطور خودکار حذف میشوند</li><li>کاربر میتواند قبل از اتمام زمان و وقت تعیین شده با استفاده از ضربدر کنار هر پیام آنرا را حذف کند</li></ul>
+</div>
+</body>
+</html>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
